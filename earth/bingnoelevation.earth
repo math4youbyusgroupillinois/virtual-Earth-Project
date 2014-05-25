@@ -1,0 +1,23 @@
+<!--
+Mircosoft Bing Maps example.
+
+  Usage of Bing Maps requires a key. Get a key here:
+  http://www.bing.com/developers/
+
+  Bing Maps Terms of Service:
+  http://www.microsoft.com/maps/product/terms.html
+
+Supported imagery sets are Aerial, AerialWithLabels, and Road.
+-->
+
+<map>
+    <options>       
+        <terrain lighting="false" first_lod="1"/>
+    </options>
+    
+    <image driver="bing">
+        <key>Atb0uB9GCSOQrXNxZNHZz2PAFO4v3NdevcVAD96gZnlNh8c_K9pCxVKQTvYKshtN</key>
+        <imagery_set>AerialWithLabels</imagery_set>
+    </image>
+       
+</map>
